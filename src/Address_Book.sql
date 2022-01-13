@@ -1,15 +1,10 @@
-mysql> SELECT COUNT(city) FROM Address_Book;
-+-------------+
-| COUNT(city) |
-+-------------+
-|           3 |
-+-------------+
-1 row in set (0.02 sec)
+mysql> SELECT firstName, lastName,city FROM Address_Book order by firstName;
++-----------+----------+----------+
+| firstName | lastName | city     |
++-----------+----------+----------+
+| Goutham   | Y        | Kolar    |
+| Harish    | L        | Delhi    |
+| smith     | G        | banglore |
++-----------+----------+----------+
+3 rows in set (0.04 sec)
 
-mysql> SELECT COUNT(city) FROM Address_Book WHERE state="Karnataka";
-+-------------+
-| COUNT(city) |
-+-------------+
-|           1 |
-+-------------+
-1 row in set (0.00 sec)
