@@ -1,6 +1,3 @@
-
-
-
 .............UC1..............
 
 mysql> show databases;
